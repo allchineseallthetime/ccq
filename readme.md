@@ -13,9 +13,11 @@ mv zh db.bin ~/.local/share/ccq
 ```
 
 the querier depends on:
+    
     - db.bin, which is a bunch of dictionaries (all converted from Yomitan) in a hash map binary format. (TODO: provide the code to convert Yomitan dictionaries to this format)
 
 and if you wish to add words to study, or to review these words, you need:
+
     - zh, which is my current study list (like a deck in Anki). This is plain-text. Feel free to delete everything in it (but keep the file), I include it so that you can try the program.
 
 now you can build the project. there's no dependencies for the reviewer:
