@@ -1,4 +1,5 @@
 WIP! I'll work on this when I have time... sorry
+
 I'd like to rewrite the reviewer in Go and unify everything. I initially wrote it all in C, but was unhappy with the TUI. Go's Bubble Tea library is way more pleasant than ncurses.
 
 Anyway, ccq expects this folder:
@@ -44,4 +45,5 @@ ccq -nor
 ```
 
 n, o, r are optional flags to change the review order. by default it's random, n is newest first (order of creation), o is oldest first (the reverse)
+
 (there's a -q flag which shouldn't work as I changed the querying method)
